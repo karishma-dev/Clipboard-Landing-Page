@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/Krrish105/Clipboard-landing-page](https://github.com/Krrish105/Clipboard-landing-page)
-- Live Site URL: [https://krrish105.github.io/rock-paper-scissor-game/](https://krrish105.github.io/Clipboard-landing-page/)
+- Live Site URL: [https://krrish105.github.io/Clipboard-Landing-Page/](https://krrish105.github.io/Clipboard-Landing-Page/)
 
 ## My process
 
