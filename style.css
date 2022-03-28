@@ -23,6 +23,7 @@
 }
 body{
     text-align: center;
+    min-width: 320px;
 }
 h1{
     margin: 50px auto 30px;
@@ -209,9 +210,11 @@ footer{
     /* Service Container */
     .service-container{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, auto);
         grid-template-rows: repeat(2, auto);
         align-items: center;
+        max-width: 1300px;
+        margin: 0 auto;
     }
     .service-subcontainer{
         text-align: start;
@@ -299,7 +302,8 @@ footer{
         margin: 70px 0px 50px -15vw;
     }
     .subservice-container{
-        column-gap: 10vw;
+        column-gap: 0vw;
+        max-width: 1000px;
     }
     #clipboard-img img{
         width: 1000px;
