@@ -5,7 +5,7 @@
 :root{
 
     /* Primary */
-    --Strong-Cyan: hsl(171, 66%, 44%);
+    --Strong-Cyan: #26baa4;
     --Light-Blue: hsl(233, 100%, 69%);
 
     /* Neutral */
@@ -43,15 +43,22 @@ a{
 }
 
 /* Header */
+.desc{
+    color: var(--Grayish-Blue);
+    line-height: 1.77rem;
+    font-size: 1.17rem;
+    margin: 20px 0;
+}
 header{
     background: url("images/bg-header-mobile.png");
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 100px 15px 0px;
+    padding: 100px 15px 40px;
 }
 .header-desc{
     line-height: 1.7rem;
     font-size: 1.17rem;
+    width: 100%;
     max-width: 620px;
     margin: 30px auto;
 }
@@ -77,12 +84,7 @@ header{
 .header-link:last-child{
     background: var(--Light-Blue);
 }
-.desc{
-    color: var(--Grayish-Blue);
-    line-height: 1.77rem;
-    font-size: 1.17rem;
-    margin: 20px 0px;
-}
+
 
 /* Main */
 main{
@@ -286,8 +288,8 @@ footer{
     footer a:hover{
         color:var(--Strong-Cyan);
     }
-    .social-links svg path:hover{
-        fill: var(--Strong-Cyan);
+    .social-links a:hover img{
+        filter: invert(74%) sepia(33%) saturate(6800%) hue-rotate(126deg) brightness(98%) contrast(70%);
     }
 
     /* Attribution */
@@ -300,10 +302,6 @@ footer{
     .service-img img{
         width: 1000px;
         margin: 70px 0px 50px -15vw;
-    }
-    .subservice-container{
-        column-gap: 0vw;
-        max-width: 1000px;
     }
     #clipboard-img img{
         width: 1000px;
